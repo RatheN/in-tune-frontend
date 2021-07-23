@@ -4,7 +4,7 @@ import SuggestionsContainer from '../containers/SuggestionsContainer'
 
 const Artist = (props) => {
 
-    let artist = props.artists.filter(artist => artist.id == props.match.params.id)[0]
+    let artist = props.artists.filter(artist => artist.id === props.match.params.id)[0]
     
     console.log(artist)
 
